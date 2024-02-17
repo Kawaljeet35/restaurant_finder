@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('hotelpic.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.web-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-container{
+    font-size: 3rem;
+    color:white;
+}
+
+.box-container{
+    padding:5px;
+    background-color: rgb(201, 3, 9);
+    height:70lvh;
+    width: 30lvw;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap:5px;
+}
+
+.text-container{
+    padding: 5px;
+}
+
+.text-container h2{
+    font-size: 1.8rem;
+    color:white;
+}
+
+.input-container{
+    padding: 20px;
+    font-size: 1.8rem;
+    color:rgb(0, 0, 0);
+    gap: 0px;
+}
+
+#area {
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#submit{
+    color:white;
+    border-radius: 10px;
+    background-color: blue;
+    border: 1px solid transparent;
+    cursor: pointer;
+    width: 7rem;
+}

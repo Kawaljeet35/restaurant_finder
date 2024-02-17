@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="web-container">
+
+        <div class="title-container">
+            <h1>Nearby</h1>
+            <h1>Restaurant</h1>
+            <h1>Finder</h1>
+        </div>
+
+        <div class="box-container">
+
+            <div class="text-container">
+                <h2>Looking for a nearby restaurant?</h2>
+                <h2>We got you covered.</h2>
+            </div>
+
+            <div class="input-container">
+                <label for="pincode">Enter Pincode:</label><br>
+                <input type="text" id="pincode"><br>
+                <label for="area">Select Search Radius:</label><br>
+                <input type="range" id="area" min="1" max="10" step="1" oninput="updateRangeValue()"><br>
+                <span id="defaultValue">5 km</span><br>
+                <input type="submit" id="submit" value="Submit">
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
